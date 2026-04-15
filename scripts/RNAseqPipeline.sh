@@ -24,7 +24,8 @@ echo "HISAT2 finished running!"
 #STEP3: Run featureCounts - Quantification
 
 #get gtf
-#wget http://ftp.ensembl.org/pub/release-106/gtf/homo_sapiens/Homo_sapiens.GRCh38.106.gtf.gz
+#human: wget http://ftp.ensembl.org/pub/release-106/gtf/homo_sapiens/Homo_sapiens.GRCh38.106.gtf.gz
+#mouse: wget ftp://ftp.ensembl.org/pub/release-110/gtf/mus_musculus/Mus_musculus.GRCm39.110.gtf.gz
 featureCounts -p --countReadPairs -s 0 -a HISAT2/Homo_sapiens.GRCh38.106.gtf -o quants/SRR390728_featureCounts.txt HISAT2/SRR390728_trimmed.bam
 echo "featureCounts finished running!"
 
