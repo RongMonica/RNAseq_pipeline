@@ -14,6 +14,7 @@ HISAT2/*.bam
 HISAT2/*.summary
 HISAT2/*.tar
 HISAT2/*.gtf
+HISAT2/s*.txt
 quants/
 tools/Trimmomatic-0.39/
 tools/*.zip
