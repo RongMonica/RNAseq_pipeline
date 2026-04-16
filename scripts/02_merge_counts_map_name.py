@@ -132,11 +132,12 @@ def map_gene_names(merged, id_type, gtf_file=None, entrez_gtf_file=None):
 def main():
     project_root = Path.cwd()
     data_dir = project_root / "data"
+    output_dir = project_root / "quants"
     pattern = "GSM1480*.txt"
     map_by = "EntrezID"  # Change to "GeneID" when your count files use GeneID.
     gtf_file = project_root / "HISAT2" / "Mus_musculus.GRCm39.110.gtf"
     entrez_gtf_file = project_root / "HISAT2" / "GCF_000001635.27_GRCm39_genomic.gtf"
-    output_file = data_dir / "merged_counts.txt"
+    output_file = output_dir / "GSE60450_merged_raw_counts.txt"
 
     files = sorted(data_dir.glob(pattern))
 
