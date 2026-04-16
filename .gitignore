@@ -20,3 +20,5 @@ tools/Trimmomatic-0.39/
 tools/*.zip
 .ipynb_checkpoints/
 *.pdf
+__pycache__/
+*.pyc
