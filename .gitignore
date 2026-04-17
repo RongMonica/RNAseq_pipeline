@@ -21,3 +21,4 @@ tools/*.zip
 *.pdf
 __pycache__/
 *.pyc
+.codex
