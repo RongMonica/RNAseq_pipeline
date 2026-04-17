@@ -1,0 +1,13 @@
+sample,cell_type,stage,replicate
+GSM1480291,Luminal,virgin,1
+GSM1480292,Luminal,virgin,2
+GSM1480293,Luminal,18.5dP,1
+GSM1480294,Luminal,18.5dP,2
+GSM1480295,Luminal,2dL,1
+GSM1480296,Luminal,2dL,2
+GSM1480297,Basal,virgin,1
+GSM1480298,Basal,virgin,2
+GSM1480299,Basal,18.5dP,1
+GSM1480300,Basal,18.5dP,2
+GSM1480301,Basal,2dL,1
+GSM1480302,Basal,2dL,2
