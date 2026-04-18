@@ -1,5 +1,6 @@
 .venv/
 rnaseq_env/
+plots/
 data/*.fastq
 data/*.fastq.gz
 data/*trimmed.fastq
