@@ -253,5 +253,3 @@ This repository is an actively developed RNA-seq analysis project covering:
 - DESeq2-based differential expression analysis
 - DEG visualization
 - completed functional enrichment analysis, including GO, KEGG, MA plotting, and GSEA with both summary and pathway-level plots
-
-The downstream enrichment section is now complete and documented in this README.
